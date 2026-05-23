@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "skoropie jopasinau" },
+      { name: "description", content: "tus mejores tatus" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "skoropie jopasinau" },
+      { property: "og:description", content: "tus mejores tatus" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "skoropie jopasinau" },
+      { name: "twitter:description", content: "tus mejores tatus" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cbcdbfd5-863d-4ef1-8187-ecece72e51eb/id-preview-c144fd5e--4a2fb070-fc30-49ce-a77e-15f1aa917db4.lovable.app-1779550873689.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/cbcdbfd5-863d-4ef1-8187-ecece72e51eb/id-preview-c144fd5e--4a2fb070-fc30-49ce-a77e-15f1aa917db4.lovable.app-1779550873689.png" },
     ],
     links: [
       {
